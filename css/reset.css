@@ -1,0 +1,64 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@100..900&display=swap');
+
+:root {
+    --stone-900: #1c1917;
+    --stone-950: #0c0a09;
+    --sky-950: #082f49;
+    --teal-950: #042f2e;
+    --color-whithe: #fff;
+    --color-whithe-gray: #CDCDCD;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+a,
+button,
+li {
+    all: unset;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--stone-950);
+    font-family: "Anybody", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: var(--color-whithe-gray);
+}
